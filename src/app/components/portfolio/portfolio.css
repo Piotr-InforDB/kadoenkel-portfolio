@@ -1,0 +1,9 @@
+.portfolio-img{
+    transition: .1s;
+    cursor: pointer;
+    filter: brightness(1);
+}
+.portfolio-img:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}

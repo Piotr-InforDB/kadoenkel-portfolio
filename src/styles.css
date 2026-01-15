@@ -1,0 +1,102 @@
+:root {
+    --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-heading: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --highlight-gold: #C9A961;
+    --highlight-gold-dark: #B39350;
+    --highlight-gold-light: #D9BC7A;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: var(--font-body);
+}
+a{
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0 0 0.5em;
+}
+
+.full-page{
+    min-height: calc(100vh - 68px);
+    margin-top: 68px;
+}
+
+.max-h-100{
+    max-height: 100px;
+}
+.max-h-200{
+    max-height: 200px;
+}
+.max-h-300{
+    max-height: 300px;
+}
+.max-h-400{
+    max-height: 400px;
+}
+.max-h-500{
+    max-height: 500px;
+}
+.max-h-600{
+    max-height: 600px;
+}
+
+.object-contain{
+    object-fit: contain;
+}
+
+.text-highlight {
+    color: var(--highlight-gold) !important;
+}
+
+.transition{
+    transition: .1s;
+}
+
+.btn{
+    transition: .2s;
+    border-radius: .25rem;
+}
+.bg-highlight {
+    background-color: var(--highlight-gold) !important;
+}
+.btn-highlight {
+    background-color: var(--highlight-gold);
+    border-color: var(--highlight-gold);
+    color: #1a1a1a;
+    font-weight: 500;
+}
+.btn-highlight:hover,
+.btn-highlight:focus {
+    background-color: var(--highlight-gold-dark);
+    border-color: var(--highlight-gold-dark);
+    color: #1a1a1a;
+}
+.btn-highlight:active {
+    background-color: var(--highlight-gold-dark) !important;
+    border-color: var(--highlight-gold-dark) !important;
+}
+.btn-outline-highlight {
+    border-color: var(--highlight-gold);
+    color: var(--highlight-gold);
+    background-color: transparent;
+}
+.btn-outline-highlight:hover,
+.btn-outline-highlight:focus {
+    background-color: var(--highlight-gold);
+    border-color: var(--highlight-gold);
+    color: #1a1a1a;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+

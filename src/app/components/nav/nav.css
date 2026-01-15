@@ -1,0 +1,79 @@
+/* Navigation Bar - Dark Mode */
+.navbar {
+  width: 100%;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand */
+.navbar-logo {
+  flex-shrink: 0;
+}
+.navbar-logo a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Navigation Menu */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+.navbar-item {
+  margin: 0 .5rem;
+}
+.navbar-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--highlight-gold);
+  transition: all .3s;
+  transform: translateX(-50%);
+  border-radius: 50rem;
+}
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar{
+    padding-left: .25rem;
+    padding-right: .25rem;
+  }
+  .navbar-logo a{
+    font-size: 1.125rem;
+  }
+  .navbar-link {
+    font-size: 0.8rem;
+  }
+  .navbar-item{
+    margin: 0 .25rem;
+  }
+
+}

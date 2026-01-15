@@ -1,0 +1,12 @@
+/* Contact Component - Dark Mode */
+:host {
+  display: block;
+  padding: var(--spacing-xl);
+  min-height: calc(100vh - 80px);
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+}

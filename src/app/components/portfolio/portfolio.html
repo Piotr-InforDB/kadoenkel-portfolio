@@ -1,0 +1,26 @@
+<div class="full-page">
+
+  <div class="text-center mb-5">
+    <h1 class="text-highlight fw-bold display-5 mb-2" >My Portfolio</h1>
+    <h4 class="text-secondary" >Explore my creative work in audiovisual production</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      @for(column of columns(); track $index){
+        <div class="col">
+
+          @for(path of column; track $index){
+            <img [src]="path" class="portfolio-img object-contain w-100 rounded-3 my-2 " >
+          }
+
+        </div>
+      }
+
+    </div>
+  </div>
+
+
+
+</div>
