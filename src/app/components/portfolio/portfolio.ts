@@ -1,13 +1,10 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {ProjectsService} from "../../services/projects.service";
-import {DatePipe} from "@angular/common";
 import {NavigationService} from "../../services/navigation.service";
 
 @Component({
   selector: 'app-portfolio',
-  imports: [
-    DatePipe
-  ],
+  imports: [],
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.css',
 })

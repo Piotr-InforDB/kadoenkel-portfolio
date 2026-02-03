@@ -18,7 +18,7 @@ export class ProjectsService {
 
   public loadProjects(){
     return new Promise<void>(resolve => {
-      fetch('projects.json')
+      fetch('portfolio.json')
         .then(response => response.json())
         .then(data => {
           this.projects.set(data as PortfolioProject[]);
