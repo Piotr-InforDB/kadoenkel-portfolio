@@ -2,71 +2,40 @@
   {
     "id": 1,
     "title": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl. Donec euismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl.",
-    "image": "portfolio/1.jpg",
+    "description": "Meegeholpen bij het maken van een korte film in Venray als PA",
+    "image": "portfolio/project_1.jpg",
     "date": "2020-01-01",
-    "images": [
-      "portfolio/1.jpg",
-      "portfolio/2.jpg",
-      "portfolio/3.jpg",
-      "portfolio/4.jpg",
-      "portfolio/5.jpg"
-    ]
+    "images": []
   },
   {
     "id": 2,
     "title": "Project 2",
-    "description": "Lget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl. Donec euismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl.",
-    "image": "portfolio/6.jpg",
+    "description": "Animatie voor P&M Hoes.",
+    "image": "portfolio/project_2.jpg",
     "date": "2021-01-01",
-    "images": [
-      "portfolio/6.jpg",
-      "portfolio/7.jpg",
-      "portfolio/8.jpg",
-      "portfolio/9.jpg",
-      "portfolio/10.jpg"
-    ]
+    "images": []
   },
   {
     "id": 3,
     "title": "Project 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euisismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl.",
-    "image": "portfolio/11.jpg",
+    "description": "BTS voor een korte film",
+    "image": "portfolio/project_3.jpg",
     "date": "2022-01-01",
     "images": [
-      "portfolio/11.jpg",
-      "portfolio/12.jpg",
-      "portfolio/13.jpg",
-      "portfolio/14.jpg",
-      "portfolio/15.jpg"
+      "portfolio/project_3_1.jpg",
+      "portfolio/project_3_2.jpg"
     ]
   },
   {
     "id": 4,
-    "title": "Project 4",
-    "description": "nc, eget ultrices nisl nisl eget nisl. Donec euismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl.",
-    "image": "portfolio/16.jpg",
+    "title": "London",
+    "description": "Fotografie in london",
+    "image": "portfolio/london_1.jpg",
     "date": "2023-01-01",
     "images": [
-      "portfolio/16.jpg",
-      "portfolio/17.jpg",
-      "portfolio/18.jpg",
-      "portfolio/19.jpg",
-      "portfolio/20.jpg"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Project 5",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices ultrices, nunc nisl ultrices nunc, eget ultrices nisl nisl eget nisl. Donec euismod, nisl eget ultrices ultrices",
-    "image": "portfolio/21.jpg",
-    "date": "2024-01-01",
-    "images": [
-      "portfolio/21.jpg",
-      "portfolio/22.jpg",
-      "portfolio/23.jpg",
-      "portfolio/24.jpg",
-      "portfolio/25.jpg"
+      "portfolio/london_2.jpg",
+      "portfolio/london_3.jpg",
+      "portfolio/london_4.jpg"
     ]
   }
 ]
